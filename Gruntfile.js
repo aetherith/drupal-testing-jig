@@ -118,20 +118,19 @@ module.exports = function (grunt) {
                 'csslint'
             ],
         },
-
-        /**
-         * Execution Tasks
-         */
-        grunt.registerTask('verify', [
-            'concurrent:phpVerify',
-            'concurrent:jsVerify',
-            'concurrent:cssVerify'
-        ]);
-
-        grunt.registerTask('clean', [
-            'phpcbf:standard',
-            'jsbeautifier:modify',
-            'csscomb'
-        ]);
     });
+    /**
+     * Execution Tasks
+     */
+    grunt.registerTask('verify', [
+        'concurrent:phpVerify',
+        'concurrent:jsVerify',
+        'concurrent:cssVerify'
+    ]);
+
+    grunt.registerTask('clean', [
+        'phpcbf:standard',
+        'jsbeautifier:modify',
+        'csscomb'
+    ]);
 }
