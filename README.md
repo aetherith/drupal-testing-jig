@@ -13,6 +13,14 @@ The modules are grouped roughly by language and the targets are defined in the
 first plugin for the language. Running the test battery is as easy as running
 `grunt verify` and running the autofix/beautifiers is `grunt clean`.
 
+## References
+* [Drupal PHPCS][drupal-phpcs]
+* [Drupal ESLint Standard][drupal-eslint]
+* [Drupal .eslintrc][drupal-eslint-repo]
+* [Drupal CSSLint Standard][drupal-csslint]
+* [Drupal .csslintrc][drupal-csslint-repo]
+* [Drupal CSSComb Standard][drupal-csscomb]
+
 [node]: https://nodejs.org/
 [grunt]: http://gruntjs.com/
 [drupal-phpcs]: https://www.drupal.org/node/1587138

@@ -1,6 +1,4 @@
 {
-  // This file was drawn from the Drupal 8.0 official repository.
-  // http://cgit.drupalcode.org/drupal/tree/.csslintrc?h=8.0.x
   "important": true,
   "adjoining-classes": false,
   "known-properties": true,

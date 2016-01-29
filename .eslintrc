@@ -1,6 +1,4 @@
 {
-  // This file is drawn from the Drupal 8.0 Core standards.
-  // http://cgit.drupalcode.org/drupal/tree/.eslintrc
   "extends": "eslint:recommended",
     "env": {
       "browser": true
