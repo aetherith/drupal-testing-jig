@@ -24,7 +24,8 @@ module.exports = function (grunt) {
                     '**/*.css',
                     '**/*.info',
                     '**/*.txt',
-                    '**/*.md'
+                    '**/*.md',
+                    '!**/node_modules/**'
                 ],
                 options: {
                     standard: 'Drupal'
@@ -53,7 +54,10 @@ module.exports = function (grunt) {
          */
         // Linting
         eslint: {
-            target: ['**/*.js'],
+            target: [
+                '**/*.js',
+                '!**/node_modules/**'
+            ],
             options: {
                 configFile: '.eslintrc'
             }
@@ -81,7 +85,10 @@ module.exports = function (grunt) {
          */
         // Linting
         csslint: {
-            src: ['**/*.css'],
+            src: [
+                '**/*.css',
+                '!**/node_modules/**'
+            ],
             options: {
                 csslintrc: '.csslintrc'
             }
