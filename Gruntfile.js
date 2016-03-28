@@ -20,8 +20,6 @@ module.exports = function (grunt) {
                     '**/*.test',
                     '**/*.profile',
                     '**/*.theme',
-                    '**/*.js',
-                    '**/*.css',
                     '**/*.info',
                     '**/*.txt',
                     '**/*.md',
