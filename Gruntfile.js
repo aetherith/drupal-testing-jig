@@ -40,7 +40,7 @@ module.exports = function (grunt) {
         // Beautifying
         phpcbf: {
             standard: {
-                src: ['<= phpcs.standard.src %>'],
+                src: ['<%= phpcs.standard.src %>'],
                 options: {
                     standard: 'Drupal'
                 }
